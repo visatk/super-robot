@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "rose",
+	"name": "super-robot",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-05-25",
 	"observability": {
@@ -9,15 +9,15 @@
 	"upload_source_maps": true,
 	"compatibility_flags": [
 		"nodejs_compat"
-	]
+	],
 	"placement": {
     "mode": "smart"
   },
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "forum",
-      "database_id": "5be50c70-61cd-445a-a68c-22b459ee9491"
+      "database_name": "super-robot",
+      "database_id": "7feb13df-0e67-4e91-94b1-e888bf052d05"
     }
   ]
 }
