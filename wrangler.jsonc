@@ -1,0 +1,23 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "rose",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-05-25",
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	"compatibility_flags": [
+		"nodejs_compat"
+	]
+	"placement": {
+    "mode": "smart"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "forum",
+      "database_id": "5be50c70-61cd-445a-a68c-22b459ee9491"
+    }
+  ]
+}
